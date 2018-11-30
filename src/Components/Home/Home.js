@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
+import banner from '../../fof-img/DSC_0180-4.jpg';
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +34,12 @@ class Home extends Component {
             src="https://origin.ih.constantcontact.com/fs026/1102647721560/img/220.jpg"
           />
         </div> */}
+        <div className="banner-wrapper">
+        <img src={banner} className="home-banner"/>
+        <div className="banner-quote">
+            <p>Quote Here</p>
+        </div>
+        </div>
       </div>
     );
   }

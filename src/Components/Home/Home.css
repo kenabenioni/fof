@@ -1,3 +1,20 @@
 .beyond-img {
     width: 300px;
 }
+.banner-wrapper {
+    width: 100vw;
+    display: block;
+    position: relative;
+}
+.banner-quote {
+    background-color: #E45641;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    /* background-image: url(../../fof-img/DSC_0180-4.jpg) */
+}
+
+.home-banner {
+    width: 100vw;
+    height: auto;
+}
