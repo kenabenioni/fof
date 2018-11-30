@@ -1,3 +1,29 @@
-.logo {
-    width: 400px;
+.Nav {
+    background-color: #44B3C2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.logo-img {
+    width: 280px;
+    padding: 10px;
+}
+
+.beyond-img {
+    width: 300px;
+}
+
+.nav-links {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 100px;
 }

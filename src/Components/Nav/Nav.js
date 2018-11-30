@@ -10,25 +10,15 @@ class Nav extends Component {
     return (
       <div className="Nav">
         <img
-          className="logo"
+          className="logo-img"
           src="http://www.babystepshawaii.org/images/BABY%20STEPS%20LOGO.jpg"
         />
         <div className="nav-links">
-          <h2>About Us</h2>
-          <h2>Families</h2>
-          <h2>Practitioners</h2>
-          <h2>Community</h2>
-          <h2>Photo Gallery</h2>
-        </div>
-        <div className="nav-quote">
-        <h4>"Baby STEPS is committed to helping all keiki on Hawaii Island to be healthy, happy, and to thrive by supporting families, strengthening practitioners and engaging communities."</h4>
-        </div>
-        <div className="earlychildhood">
-        <h1>Early Childhood</h1>
-        <h2>Play and Learn Group</h2>
-        <h2>Book Bag Project</h2>
-        <h2>Step Up To Kindergarden</h2>
-        <h2>Past Projects</h2>
+          <h2 className="link">About Us</h2>
+          <h2 className="link">Families</h2>
+          <h2 className="link">Practitioners</h2>
+          <h2 className="link">Community</h2>
+          <h2 className="link">Photo Gallery</h2>
         </div>
       </div>
     );
