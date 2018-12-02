@@ -1,8 +1,12 @@
 .Nav {
     background-color: #44B3C2;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 100px;
 }
 .link {
     font-family: 'Raleway', sans-serif;

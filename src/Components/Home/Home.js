@@ -35,8 +35,12 @@ class Home extends Component {
           />
         </div> */}
         <div className="banner">
-        <div className="quote-wrapper">
-            <p>Quote Here</p>
+        <img src={banner} className="banner-img"/>
+        </div>
+        <div className="early">
+        <h2>Early Childhood</h2>
+        <div className="early-links">
+
         </div>
         </div>
       </div>
