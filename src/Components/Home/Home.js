@@ -34,9 +34,8 @@ class Home extends Component {
             src="https://origin.ih.constantcontact.com/fs026/1102647721560/img/220.jpg"
           />
         </div> */}
-        <div className="banner-wrapper">
-        <img src={banner} className="home-banner"/>
-        <div className="banner-quote">
+        <div className="banner">
+        <div className="quote-wrapper">
             <p>Quote Here</p>
         </div>
         </div>
