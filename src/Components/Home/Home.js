@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
-import banner from '../../fof-img/DSC_0180-4.jpg';
+import banner from "../../fof-img/DSC_0180-4.jpg";
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -35,13 +35,24 @@ class Home extends Component {
           />
         </div> */}
         <div className="banner">
-        <img src={banner} className="banner-img"/>
+          <img src={banner} className="banner-img" />
         </div>
         <div className="early">
-        <h2>Early Childhood</h2>
-        <div className="early-links">
-
-        </div>
+          <h2>EARLY CHILDHOOD</h2>
+          <div className="early-links">
+            <div className="section">
+              <h4>Play and Learn Group</h4>
+            </div>
+            <div className="section">
+              <h4>Book Bag Project</h4>
+            </div>
+            <div className="section">
+              <h4>Step Up To Kindergarden</h4>
+            </div>
+            <div className="section">
+              <h4>Past Projects</h4>
+            </div>
+          </div>
         </div>
       </div>
     );
