@@ -1,0 +1,13 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7B8D8E;
+    color: white;
+    padding: 10px;
+}
+
+.Footer > h4 {
+    margin: 10px;
+    font-size: 0.9em;
+}
