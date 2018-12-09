@@ -33,7 +33,7 @@
 }
 .banner:hover .banner-quote{
   visibility: visible;
-  opacity: 1;
+  opacity: 0.9;
 }
 
 
