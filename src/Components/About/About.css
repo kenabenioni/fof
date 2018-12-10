@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 6%;
+  border-radius: 50px;
   border: 3px solid rgb(68, 179, 194, 0.6);
 }
 .staff > h1 {
@@ -24,7 +24,7 @@
 }
 .staff > hr {
   border-top: 3px solid rgb(228, 86, 65);
-  border-radius: 50%;
+  border-radius: 50px;
   width: 100%;
 }
 .members {
@@ -46,7 +46,7 @@
   height: 400px;
   width: 320px;
   border: 3px solid #F1A94E;
-  border-radius: 10%;
+  border-radius: 50px;
 }
 
 .person {
@@ -54,6 +54,9 @@
   display: flex;
   align-items: center;
   margin: 25px 0px 25px 0px;
+}
+.person > h5 {
+    margin: 15px;
 }
 
 .right-wrap {
@@ -71,7 +74,7 @@
 
 .contact-us > hr {
   border-top: 3px solid rgb(228, 86, 65);
-  border-radius: 50%;
+  border-radius: 50px;
   width: 100%;
 }
 
