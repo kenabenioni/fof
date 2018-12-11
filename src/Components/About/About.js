@@ -18,7 +18,7 @@ class About extends Component {
                 src="http://babystepshawaii.org/images/Angela%20pic.jpg"
                 className="staff-img"
               />
-              <div>
+              <div className="person-section">
                 <h5>Angela C. Thomas, MA Ed</h5>
                 <h5>Program Leader</h5>
                 <h5>athomas@BabySTEPShawaii.org</h5>
@@ -29,7 +29,7 @@ class About extends Component {
                 src="http://babystepshawaii.org/images/Chelsea%20pic.jpg"
                 className="staff-img"
               />
-              <div>
+              <div className="person-section">
                 <h5>Chelsea LaFrance</h5>
                 <h5>Honokaa & Paauilo School site Coordinator</h5>
                 <h5>clafrance@BabySTEPShawaii.org</h5>
@@ -40,7 +40,7 @@ class About extends Component {
                 src="http://babystepshawaii.org/images/Hilda.jpg"
                 className="staff-img"
               />
-              <div>
+              <div className="person-section">
                 <h5>Hilda Gonzales</h5>
                 <h5>Waimea Elementary School Site Coordinator</h5>
                 <h5>Play & Learn Group Coordinator</h5>
@@ -52,7 +52,7 @@ class About extends Component {
                 src="http://babystepshawaii.org/images/Bernie%20pic.jpg"
                 className="staff-img"
               />
-              <div>
+              <div className="person-section">
                 <h5>Bernie Marsh</h5>
                 <h5>Waimea Middle School Site Coordinator</h5>
                 <h5>bmarsh@BabySTEPShawaii.org</h5>
@@ -63,7 +63,7 @@ class About extends Component {
                 src="http://babystepshawaii.org/images/Alexia%20Carvalho.jpeg"
                 className="staff-img"
               />
-              <div>
+              <div className="person-section">
                 <h5>Alexia Carvalho</h5>
                 <h5>
                   Baby steps to literacy coordinator / after school instructor

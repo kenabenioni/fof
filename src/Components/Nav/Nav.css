@@ -28,6 +28,7 @@ a {
 .logo-img {
     width: 280px;
     padding: 10px;
+    border-radius: 25px;
 }
 
 .nav-links {
