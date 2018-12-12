@@ -26,8 +26,12 @@ class Nav extends Component {
         <Link to={"/practitioners"}>
           <h2 className="link">Practitioners</h2>
         </Link>
+        <Link to={"/community"}>
           <h2 className="link">Community</h2>
+        </Link>
+        <Link to={"/photogallery"}>
           <h2 className="link">Photo Gallery</h2>
+        </Link>
         </div>
       </div>
     );

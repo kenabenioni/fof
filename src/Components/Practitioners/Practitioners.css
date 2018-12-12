@@ -1,0 +1,40 @@
+.prac-title {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5em;
+  background-color: #e45641;
+  /* margin-top: 0; */
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+  width: 100vw;
+}
+
+.prac-sections {
+  background-color: white;
+  width: 95vw;
+  height: 230px;
+  margin: 15px 0px 15px 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(68, 179, 194, 0.6);
+  border-radius: 40px;
+}
+
+.prac-sections-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prac-sections > h4 {
+    margin: 10px;
+    font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
