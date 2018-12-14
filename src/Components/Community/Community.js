@@ -26,10 +26,11 @@ E Ho'opili Hou SKIP is a program whose goal is to prepare incarcerated parents f
             <img src="http://babystepshawaii.org/images/SKIPdads.jpg" />
           </div>
           <div className="com-sections">
+            <img src="http://babystepshawaii.org/images/autism2010pic2.JPG" />
+            
             <h4>
             Specialized Trainings for Parents and Practitioners including the Our Keiki, Our Kuleana workshops; Autism workshops; and Fetal Alcohol Syndrome workshops held across the state.
             </h4>
-            <img src="http://babystepshawaii.org/images/autism2010pic2.JPG" />
           </div>
         </div>
             </div>
