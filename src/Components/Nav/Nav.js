@@ -32,6 +32,7 @@ class Nav extends Component {
         <Link to={"/photogallery"}>
           <h2 className="link">Photo Gallery</h2>
         </Link>
+        <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
       </div>
     );

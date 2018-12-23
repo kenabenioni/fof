@@ -38,3 +38,53 @@ a {
     justify-content: space-around;
     margin-right: 80px;
 }
+
+@media (max-width: 1200px) {
+    .link {
+        font-family: 'Raleway', sans-serif;
+        font-size: 17px;
+        letter-spacing: 1px;
+        color: white;
+        margin: 7spx;
+        /* height: 100%; */
+    }
+
+    .nav-links {
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 60px;
+    }
+
+}
+@media (max-width: 1050px) {
+    .link {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: white;
+        margin: 7spx;
+        /* height: 100%; */
+    }
+
+    .nav-links {
+        width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 40px;
+    }
+    .logo-img {
+        width: 240px;
+        padding: 8px;
+        border-radius: 23px;
+    }
+
+}
+@media (max-width: 1050px) {
+.link {
+    display: none;
+}
+
+}
