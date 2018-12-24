@@ -24,6 +24,9 @@ a {
     cursor: pointer;
     transition: all 0.2s ease 0s;
 }
+.burger {
+    display: none;
+}
 
 .logo-img {
     width: 280px;
@@ -94,21 +97,30 @@ a {
 
 }
 @media (max-width: 630px) {
-    .logo-img {
-        width: 220px;
-        padding: 6px;
-        border-radius: 20px;
-    }
-    .link {
-        font-family: 'Raleway', sans-serif;
-        font-size: 11px;
-        letter-spacing: 1px;
-        color: white;
-        margin: 7px;
+    .Nav {
+        flex-direction: row;
+        height: 120px;
     }
     .nav-links {
-        margin: 0;
-        width: 470px;
+        display: none;
+    }
+    .burger {
+        display: block;
+        margin-right: 30px;
+    }
+    .logo-img {
+        width: 270px;
+        padding: 8px;
+        border-radius: 23px;
+    }
+
+}
+@media (max-width: 500px) {
+    .burger {
+        margin-right: 20px;
+    }
+    .logo-img {
+        width: 200px;
     }
 
 }

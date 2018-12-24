@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faBars} from '@fortawesome/free-solid-svg-icons';
 import "./Nav.css";
 
 class Nav extends Component {
@@ -33,6 +36,7 @@ class Nav extends Component {
           <h2 className="link">Photo Gallery</h2>
         </Link>
         </div>
+        <div className="burger"><FontAwesomeIcon icon={faBars} size="lg" color="white"/></div>
       </div>
     );
   }
