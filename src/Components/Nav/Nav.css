@@ -64,7 +64,7 @@ a {
         font-size: 16px;
         letter-spacing: 1px;
         color: white;
-        margin: 7spx;
+        margin: 9px;
         /* height: 100%; */
     }
 
@@ -82,9 +82,33 @@ a {
     }
 
 }
-@media (max-width: 1050px) {
-.link {
-    display: none;
+@media (max-width: 900px) {
+    .Nav {
+        flex-direction: column;
+        height: 120px;
+    }
+    .nav-links {
+        margin: 0;
+        width: 630px;
+    }
+
 }
+@media (max-width: 630px) {
+    .logo-img {
+        width: 220px;
+        padding: 6px;
+        border-radius: 20px;
+    }
+    .link {
+        font-family: 'Raleway', sans-serif;
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: white;
+        margin: 7px;
+    }
+    .nav-links {
+        margin: 0;
+        width: 470px;
+    }
 
 }
