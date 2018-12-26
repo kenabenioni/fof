@@ -39,3 +39,19 @@
     letter-spacing: 1px;
     color: rgb(70, 69, 69);
 }
+
+@media (max-width: 800px) {
+    .footer-links > h4 {
+        margin: 14px;
+        font-size: 0.8em;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+    }
+    .copyright > h4 {
+        margin: 0px 14px 5px 14px;
+        font-size: 0.7em;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 1px;
+        color: rgb(70, 69, 69);
+    }
+}

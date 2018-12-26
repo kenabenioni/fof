@@ -132,6 +132,9 @@ a {
   .section-img {
     width: 92%;
   }
+  .banner-quote {
+    font-size: 17px;
+  }
 }
 @media (max-width: 1068px) {
   .early-links {
@@ -145,8 +148,18 @@ a {
     width: 92%;
     height: 240px;
   }
+
 }
-@media (max-width: 520px) {
+@media (max-width: 800px) {
+  .banner-quote {
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    padding: 25px 0px 25px 0px;
+    top: 32vw;
+  }
+}
+
+@media (max-width: 600px) {
   .early-links {
     flex-wrap: wrap;
   }
@@ -164,6 +177,12 @@ a {
   }
   .programs-title {
     font-size: 20px;
+  }
+  .banner-quote {
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+    padding: 15px 0px 15px 0px;
+    top: 40vw;
   }
 }
 @media (max-width: 400px) {
