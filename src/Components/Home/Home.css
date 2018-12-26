@@ -35,11 +35,10 @@ a {
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
 }
-.banner:hover .banner-quote{
+.banner:hover .banner-quote {
   visibility: visible;
   opacity: 0.9;
 }
-
 
 .early {
   display: flex;
@@ -82,14 +81,14 @@ a {
   border: 3px solid #57c4c3;
 }
 .section > h4 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.6px;
   text-align: center;
 }
 .section > p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.6px;
@@ -147,5 +146,40 @@ a {
     height: 240px;
   }
 }
+@media (max-width: 520px) {
+  .early-links {
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 65vw;
+    height: 490px;
+  }
+  .section-img {
+    width: 92%;
+    height: 240px;
+  }
+  .early-title {
+    font-size: 20px;
 
+  }
+  .programs-title {
+    font-size: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .section {
+    width: 65vw;
+    height: 400px;
+  }
+  .section-img {
+    width: 96%;
+    height: 180px;
+  }
+  .early-title {
+    font-size: 15px;
 
+  }
+  .programs-title {
+    font-size: 15px;
+  }
+}
