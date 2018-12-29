@@ -5,12 +5,13 @@
     font-weight: 500;
     font-size: 30px;
     line-height: 1.5em;
-    background-color: rgb(126, 108, 102);
+    background-color: rgba(253,190,15);
     /* margin-top: 0; */
     padding: 20px 0px 20px 0px;
     margin: 20px 0px 20px 0px;
     width: 100vw;
   }
+  
   
   .com-sections {
     background-color: white;

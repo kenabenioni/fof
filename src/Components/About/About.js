@@ -8,10 +8,12 @@ class About extends Component {
   }
   render() {
     return (
+      <div className="about-wrapper">
+        <div className="ab-title">
+          About Us
+        </div>
       <div className="About">
         <div className="staff">
-          <h1>Our Staff</h1>
-          <hr />
           <div className="members">
             <div className="person">
               <img
@@ -87,6 +89,7 @@ class About extends Component {
           </div>
         <img  className="beyond-img" src="https://origin.ih.constantcontact.com/fs026/1102647721560/img/220.jpg"/>
         </div>
+      </div>
       </div>
     );
   }

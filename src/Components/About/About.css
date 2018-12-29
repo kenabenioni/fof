@@ -4,17 +4,27 @@
   display: flex;
   justify-content: space-around;
 }
+.ab-title {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5em;
+  background-color: rgb(243, 111, 91);
+  /* margin-top: 0; */
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
+  width: 100vw;
+}
 
 .staff {
-  padding: 20px;
-  background-color: white;
+  padding: 10px;
   width: 680px;
-  /* height: 700px; */
+  /* height: 100px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border-radius: 50px;
-  border: 3px solid #57c4c3;
 }
 .staff > h1 {
   margin: 10px;
@@ -29,31 +39,41 @@
 }
 .members {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* height: 900px; */
 }
 
 .staff-img {
   object-fit: cover;
   width: 105px;
   height: 128px;
-  margin-right: 20px;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .contact-us {
   padding: 20px;
   background-color: white;
   height: 400px;
-  width: 320px;
+  width: 300px;
   border: 3px solid #f1a94e;
   border-radius: 50px;
+  margin-top: 10px;
 }
 
 .person {
-  height: 140px;
-  display: flex;
+  background-color: white;
+  /* border: 3px solid #57c4c3;
+  border-radius: 50px; */
+  height: 320px;
+  width: 300px;
+  display: flex; 
+  flex-direction: column;
   align-items: center;
-  margin: 25px 0px 25px 0px;
+  justify-items: center;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 30px;
 }
 
 .person-section > h5 {
