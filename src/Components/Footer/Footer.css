@@ -55,3 +55,19 @@
         color: rgb(70, 69, 69);
     }
 }
+@media (max-width: 545px) {
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Footer {
+        height: 240px;
+    }
+
+.copyright {
+    display: flex;
+    justify-content: flex-start;
+
+}
+}
