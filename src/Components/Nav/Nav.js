@@ -36,7 +36,26 @@ class Nav extends Component {
           <h2 className="link">Photo Gallery</h2>
         </Link>
         </div>
-        <div className="burger"><FontAwesomeIcon icon={faBars} size="lg" color="white"/></div>
+        <div className="burger">
+        <FontAwesomeIcon icon={faBars} size="lg" color="white"/>
+        <div className="dropdown">
+        <Link to={"/about"}>
+          <h3>About Us</h3>
+        </Link>
+        <Link to={"/families"}>
+          <h3>Families</h3>
+        </Link>
+        <Link to={"/practitioners"}>
+          <h3>Practitioners</h3>
+        </Link>
+        <Link to={"/community"}>
+          <h3>Community</h3>
+        </Link>
+        <Link to={"/photogallery"}>
+          <h3>Photo Gallery</h3>
+        </Link>
+        </div>
+        </div>
       </div>
     );
   }
