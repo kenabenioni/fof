@@ -60,19 +60,6 @@ class About extends Component {
                 <h5>bmarsh@BabySTEPShawaii.org</h5>
               </div>
             </div>
-            <div className="person">
-              <img
-                src="http://babystepshawaii.org/images/Alexia%20Carvalho.jpeg"
-                className="staff-img"
-              />
-              <div className="person-section">
-                <h5>Alexia Carvalho</h5>
-                <h5>
-                  Baby steps to literacy coordinator / after school instructor
-                </h5>
-                <h5>acarvalho@BabySTEPShawaii.org</h5>
-              </div>
-            </div>
           </div>
         </div>
         <div className="right-wrap">

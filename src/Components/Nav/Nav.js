@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
+import logo from '../../fof-img/preview.jpeg';
 import "./Nav.css";
 
 class Nav extends Component {
@@ -16,7 +17,7 @@ class Nav extends Component {
       <Link to={"/"}>
         <img
           className="logo-img"
-          src="http://www.babystepshawaii.org/images/BABY%20STEPS%20LOGO.jpg"
+          src={logo}
         />
       </Link>
         <div className="nav-links">
