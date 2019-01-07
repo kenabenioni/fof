@@ -7,6 +7,7 @@ import bookbag from '../../fof-img/IMG_4893.jpg';
 import kindergarden from '../../fof-img/IMG_5074.jpg';
 import pastproj from '../../fof-img/IMG_0832.JPG';
 import waimeaElem from '../../fof-img/IMG_2824.JPG';
+import paauilo from '../../fof-img/IMG_2811.JPG';
 
 class Home extends Component {
   constructor(props) {
@@ -80,16 +81,18 @@ class Home extends Component {
             </div>
             <div className="section">
               <img
-                src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/47322327_1912776352121341_7812218883456106496_o.jpg?_nc_cat=102&_nc_ht=scontent-lax3-1.xx&oh=e073593aa96b6cedd1351598ef45ee09&oe=5CA7B924"
+                src={pastproj}
                 className="section-img"
+                id="changeimg"
               />
               <h4>Waimea Middle School</h4>
               <p>Fill in text here.</p>
             </div>
             <div className="section">
               <img
-                src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/47389732_1912776408788002_2187233222432129024_o.jpg?_nc_cat=108&_nc_ht=scontent-lax3-1.xx&oh=78cad834cf2ef40ed1b73186e43a1869&oe=5CB05C98"
+                src={paauilo}
                 className="section-img"
+                id="changeimg"
               />
               <h4>Paauilo Elem. and Inter.</h4>
               <p>Fill in text here.</p>
