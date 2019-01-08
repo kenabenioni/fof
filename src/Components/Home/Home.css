@@ -16,6 +16,7 @@ a {
   width: 220px;
   height: 190px;
   margin-top: 17px;
+  margin-bottom: 7px;
 }
 
 .banner {
@@ -23,7 +24,9 @@ a {
 }
 
 .banner-img {
+  object-fit: cover;
   width: 100vw;
+  height: 600px;
 }
 .banner-quote {
   text-align: center;
@@ -87,13 +90,29 @@ a {
   border: 3px solid #57c4c3;
 }
 .section > h4 {
+  color: black;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.6px;
   text-align: center;
 }
+.section > a {
+  color: black;
+  text-decoration: underline;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin: 17px 0px 17px 0px;
+}
+.section > a:hover {
+  color: rgb(243, 111, 91);
+}
+
 .section > p {
+  color: black;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -142,6 +161,9 @@ a {
   .banner-quote {
     font-size: 17px;
   }
+  .banner-img {
+    height: 450px;
+  }
   #changeimg {
     width: 220px;
     height: 213px;
@@ -155,6 +177,9 @@ a {
   .section {
     width: 38vw;
     height: 490px;
+  }
+  .banner-img {
+    height: 430px;
   }
   .section-img {
     width: 220px;
@@ -172,7 +197,10 @@ a {
     font-size: 17px;
     margin: 10px 0px 10px 0px;
     padding: 25px 0px 25px 0px;
-    top: 32vw;
+    top: 40vw;
+  }
+  .banner-img {
+    height: 350px;
   }
 }
 
@@ -217,6 +245,12 @@ a {
   }
   .programs-title {
     font-size: 15px;
+  }
+  .banner-img {
+    height: 230px;
+  }
+  .banner-quote {
+    top: 44vw;
   }
   #changeimg {
     width: 240px;

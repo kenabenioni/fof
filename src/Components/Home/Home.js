@@ -8,6 +8,12 @@ import kindergarden from '../../fof-img/IMG_5074.jpg';
 import pastproj from '../../fof-img/IMG_0832.JPG';
 import waimeaElem from '../../fof-img/IMG_2824.JPG';
 import paauilo from '../../fof-img/IMG_2811.JPG';
+import waimeaEpdf from '../../fof-pdf/3rd quarter REGISTRATION FORM 2018-2019.2.pdf';
+import waimeaMpdf from '../../fof-pdf/21st CLC-Registration Flyer - 3rd qtr. 18-19.pdf';
+import paauilopdf from '../../fof-pdf/Q3 paauilo sy18.19 (1).pdf';
+import honokaapdf from '../../fof-pdf/Q3 honokaa sy18.19.pdf';
+import banban from '../../fof-img/IMG_6531.jpg';
+
 
 class Home extends Component {
   constructor(props) {
@@ -19,7 +25,7 @@ class Home extends Component {
       <div className="Home">
         <div className="banner">
           <img
-            src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/47395469_1912776502121326_2738442646526623744_o.jpg?_nc_cat=100&_nc_ht=scontent-lax3-1.xx&oh=14a75927b307b81a523129cf20da4dd7&oe=5C6443B1"
+            src={banban}
             className="banner-img"
           />
           <h4 className="banner-quote">
@@ -76,7 +82,7 @@ class Home extends Component {
                 src={waimeaElem}
                 className="section-img"
               />
-              <h4>Waimea Elem. School</h4>
+              <a href = {waimeaEpdf} target = "_blank">Waimea Elem. School</a>
               <p>Fill in text here.</p>
             </div>
             <div className="section">
@@ -85,7 +91,7 @@ class Home extends Component {
                 className="section-img"
                 id="changeimg"
               />
-              <h4>Waimea Middle School</h4>
+              <a href = {waimeaMpdf} target = "_blank">Waimea Middle School</a>
               <p>Fill in text here.</p>
             </div>
             <div className="section">
@@ -94,7 +100,7 @@ class Home extends Component {
                 className="section-img"
                 id="changeimg"
               />
-              <h4>Paauilo Elem. and Inter.</h4>
+              <a href = {paauilopdf} target = "_blank">Paauilo Elem. and Inter.</a>
               <p>Fill in text here.</p>
             </div>
             <div className="section">
@@ -103,7 +109,7 @@ class Home extends Component {
                 className="section-img"
                 id="changeimg"
               />
-              <h4>Honokaa High and Inter.</h4>
+              <a href = {honokaapdf} target = "_blank">Honokaa High and Inter.</a>
               <p>Fill in text here.</p>
             </div>
           </div>
