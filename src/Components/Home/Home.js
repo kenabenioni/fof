@@ -28,6 +28,7 @@ class Home extends Component {
             src={banban}
             className="banner-img"
           />
+          <img src="https://origin.ih.constantcontact.com/fs026/1102647721560/img/220.jpg" className="beyond-home-img"/>
           <h4 className="banner-quote">
             "Baby STEPS is committed to helping all keiki on Hawaii Island to be
             healthy, happy, and to thrive by supporting families, strengthening

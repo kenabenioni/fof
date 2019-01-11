@@ -11,6 +11,13 @@ a {
 .beyond-img {
   width: 300px;
 }
+.beyond-home-img {
+  position: absolute;
+  right: 0px;
+  width: 200px;
+  top: 544px;
+}
+
 #changeimg {
   transform: rotate(360deg);
   width: 220px;
@@ -164,6 +171,11 @@ a {
   .banner-img {
     height: 450px;
   }
+  .beyond-home-img {
+    width: 180px;
+    top: 413px;
+  }
+
   #changeimg {
     width: 220px;
     height: 213px;
@@ -181,6 +193,9 @@ a {
   .banner-img {
     height: 430px;
   }
+  .beyond-home-img {
+    top: 393px;
+  }
   .section-img {
     width: 220px;
     height: 270px;
@@ -190,7 +205,11 @@ a {
     height: 220px;
     margin: 23px 0px 23px 0px;
   }
-
+}
+@media (max-width: 900px) {
+  .beyond-home-img {
+    top: 420px;
+  }
 }
 @media (max-width: 800px) {
   .banner-quote {
@@ -201,6 +220,16 @@ a {
   }
   .banner-img {
     height: 350px;
+  }
+  .beyond-home-img {
+    top: 380px;
+    width: 140px;
+  }
+}
+@media (max-width: 630px) {
+  .beyond-home-img {
+    top: 350px;
+    width: 140px;
   }
 }
 
@@ -247,10 +276,15 @@ a {
     font-size: 15px;
   }
   .banner-img {
-    height: 230px;
+    height: 300px;
   }
   .banner-quote {
-    top: 44vw;
+    top: 59vw;
+  }
+  .beyond-home-img {
+    position: static;
+    top: 389px;
+    width: 100vw;
   }
   #changeimg {
     width: 240px;
